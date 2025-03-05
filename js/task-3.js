@@ -7,7 +7,7 @@ const profile = {
     },
     
    updatePlayTime(hours) {
-    profile.playTime = hours;
+    profile.playTime += hours;
     },
   
    getInfo() {
