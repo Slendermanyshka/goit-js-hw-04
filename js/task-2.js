@@ -4,7 +4,7 @@ function calcAverageCalories(days) {
       caloriesCount += i.calories;
     }
 
-    if(caloriesCount === 0){
+    if(days.length === 0){
       return 0;
     } 
     return caloriesCount/days.length;
